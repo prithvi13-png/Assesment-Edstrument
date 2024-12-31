@@ -1,61 +1,143 @@
-.form-container {
-    max-width: 500px;
+.invoice-container {
+    padding: 24px;
+    background-color: #f3f4f6;
+    min-height: full;
+  }
+  
+  .invoice-wrapper {
+    max-width: full;
     margin: 0 auto;
-    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .invoice-header {
+    padding: 16px;
+    border-bottom: 1px solid #e5e7eb;
     text-align: center;
-    font-family: Arial, sans-serif;
   }
   
-  .upload-area {
-    border: 2px dashed #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
+  .invoice-header h1 {
+    font-size: 20px;
+    font-weight: 600;
   }
   
-  .upload-placeholder {
-    color: #333;
+  .invoice-body {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   
-  .icon {
+  .upload-section,
+  .form-section {
+    width: 50%;
+    padding: 24px;
+  }
+  
+  .upload-box {
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .upload-icon {
+    color: #3b82f6;
     font-size: 48px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .upload-text {
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .upload-subtext {
+    font-size: 14px;
+    color: #9ca3af;
   }
   
   .upload-button {
-    background-color: #007bff;
-    color: white;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    margin: 10px 0;
   }
   
-  .drag-drop-text {
+  .upload-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .upload-instructions {
+    margin-top: 8px;
     font-size: 14px;
-    color: #777;
+    color: #9ca3af;
   }
   
-  .file-input {
-    display: none;
+  .form-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+  }
+  
+  .form-field:focus {
+    outline: none;
+    border-color: #3b82f6;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 16px;
   }
   
   .error-message {
-    color: red;
-    font-size: 12px;
-    margin-top: 10px;
+    color: #ef4444;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+  
+  .draft-button {
+    padding: 8px 16px;
+    background-color: #e5e7eb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
   
   .submit-button {
-    background-color: #28a745;
-    color: white;
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
   }
+  
+  .submit-button:hover {
+    background-color: #2563eb;
+  }
+  

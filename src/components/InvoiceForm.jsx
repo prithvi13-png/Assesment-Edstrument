@@ -764,7 +764,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative top-2">
+          <div className="relative ">
             <div className="absolute bottom-0 right-0 left-[98%] bg-white border-t border-[#E7EAEE] rounded-lg flex justify-between items-center p-4 w-[732px] h-[80px] shadow-lg">
               <div className="flex justify-center items-center">
                 <button

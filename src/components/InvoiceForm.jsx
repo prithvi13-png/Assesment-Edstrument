@@ -242,7 +242,7 @@ export default function Home() {
                       <div ref={vendorRef} className="section  pb-3 w-[684px]">
                         <div className="flex items-center">
                           <img
-                            src="/ic-1.png"
+                            src="/ic-1.png?v=1"
                             width={50}
                             height={50}
                             alt="vendor"

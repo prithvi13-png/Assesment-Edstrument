@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { FiLogOut } from "react-icons/fi";
 import { useFormik } from "formik";
 
+
 export default function Home() {
   const InvoiceForm = () => {
     const [activeTab, setActiveTab] = useState("vendor");
@@ -123,7 +124,7 @@ export default function Home() {
             <div className="flex flex-col gap-4 ml-7">
               <div className="flex items-center gap-5 pt-8 pb-4">
                 <img
-                  src="/public/ba.png"
+                  src="/ba.png"
                   alt="left-arrow"
                   width={24}
                   height={24}
@@ -142,7 +143,7 @@ export default function Home() {
                     To auto-populate fields and save time
                   </span>
                   <img
-                    src="/public/gif.gif"
+                    src="/gif.gif"
                     alt="alt"
                     width={320}
                     height={320}
@@ -161,7 +162,7 @@ export default function Home() {
                 >
                   <span className="text-[16px]">Upload File</span>
                   <img
-                    src="/public/ul.png"
+                    src="/ul.png"
                     alt="upload-icon"
                     width="20"
                     height="20"
@@ -241,7 +242,7 @@ export default function Home() {
                       <div ref={vendorRef} className="section  pb-3 w-[684px]">
                         <div className="flex items-center">
                           <img
-                            src="/public/ic-1.png"
+                            src="/ic-1.png"
                             width={50}
                             height={50}
                             alt="vendor"
@@ -311,7 +312,7 @@ export default function Home() {
                       <div ref={invoiceRef} className="section pb-3 w-[684px] ">
                         <div className="flex gap-5 items-center">
                           <img
-                            src="/public/ic-2.png"
+                            src="/ic-2.png"
                             width={50}
                             height={50}
                             alt="invoice"
@@ -725,7 +726,7 @@ export default function Home() {
                       <div ref={commentsRef} className="section pb-[10%]">
                         <div className="flex gap-5 items-center">
                           <img
-                            src="/public/ic-3.png"
+                            src="/ic-3.png"
                             width={50}
                             height={50}
                             alt="comt"
@@ -748,7 +749,7 @@ export default function Home() {
                             className="absolute right-10 top-1/2 transform -translate-y-1/2"
                           >
                             <img
-                              src="/public/send.png"
+                              src="/send.png"
                               alt="send"
                               width={20}
                               height={20}
@@ -763,7 +764,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative top-2">
             <div className="absolute bottom-0 right-0 left-[98%] bg-white border-t border-[#E7EAEE] rounded-lg flex justify-between items-center p-4 w-[732px] h-[80px] shadow-lg">
               <div className="flex justify-center items-center">
                 <button
